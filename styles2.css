@@ -1,0 +1,100 @@
+/* Налаштування базових стилів */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #a75e00;
+}
+
+header {
+    background-color: #5c3100;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container .photo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 20px;
+    background-color: rgb(255, 153, 0);
+}
+
+.container .top-right {
+    position: absolute;
+    top: 150px;
+    right: 600px;
+    background-color: rgb(255, 153, 0);
+    padding: 50px;
+    border-radius: 8px;
+}
+
+/* Центральні блоки */
+.container .center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 153, 0);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container .center.top {
+    top: 40%;
+}
+
+.container .center.bottom {
+    top: 55%;
+}
+
+/* Текст у лівому нижньому куті */
+.container .bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgb(255, 153, 0);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Текст у правому нижньому куті */
+.container .bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(255, 153, 0);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.gold-star {
+    color: #FFD700; /* Золотистий колір */
+  }
+/* Стилі для текстових блоків */
+p {
+    margin: 0;
+    text-align: center;
+}
